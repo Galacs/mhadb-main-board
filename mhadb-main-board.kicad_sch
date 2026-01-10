@@ -1906,6 +1906,156 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Switch:SW_Push"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "SW_Push"
+				(at 0 -1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Push button switch, generic, two pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_Push_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power)
 			(pin_numbers
@@ -2246,6 +2396,30 @@
 		)
 		(uuid 40fffc66-4439-4276-95f9-eae986e24d7f)
 	)
+	(rectangle
+		(start 49.53 173.99)
+		(end 81.28 195.58)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 62b21d95-e071-4f5a-a184-d7bd642ff513)
+	)
+	(text "Buttons"
+		(exclude_from_sim no)
+		(at 72.39 192.278 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "188727af-c0e0-4509-a8ad-01a8f1ec97b2")
+	)
 	(text "HSE"
 		(exclude_from_sim no)
 		(at 19.05 177.038 0)
@@ -2303,6 +2477,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "50fdbb3c-3078-4d7c-b08a-48df9d75339b")
+	)
+	(junction
+		(at 53.34 185.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e0638c1-097e-47ce-ac30-36d22a5c6a57")
 	)
 	(junction
 		(at 167.64 33.02)
@@ -2393,6 +2573,16 @@
 			(type default)
 		)
 		(uuid "10858142-8166-4469-92cb-7d2776625758")
+	)
+	(wire
+		(pts
+			(xy 53.34 179.07) (xy 55.88 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15e2ee60-a998-430e-ad7f-213730be87aa")
 	)
 	(wire
 		(pts
@@ -2846,6 +3036,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 185.42) (xy 53.34 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9dc8305c-d881-4212-a4de-412fbcc4cb65")
+	)
+	(wire
+		(pts
 			(xy 227.33 49.53) (xy 227.33 52.07)
 		)
 		(stroke
@@ -2976,6 +3176,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 179.07) (xy 76.2 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db68898f-03c6-4649-a4e6-01d416f9c04c")
+	)
+	(wire
+		(pts
 			(xy 118.11 46.99) (xy 118.11 45.72)
 		)
 		(stroke
@@ -2986,6 +3196,16 @@
 	)
 	(wire
 		(pts
+			(xy 53.34 185.42) (xy 55.88 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfba0bf8-7a52-452f-8a32-9b19f94c9a24")
+	)
+	(wire
+		(pts
 			(xy 138.43 46.99) (xy 148.59 46.99)
 		)
 		(stroke
@@ -2993,6 +3213,16 @@
 			(type default)
 		)
 		(uuid "e1b1da07-24b4-4bb0-a485-16c0cc96e1ad")
+	)
+	(wire
+		(pts
+			(xy 66.04 185.42) (xy 76.2 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e63b0363-804e-4bc9-bf17-59e17f79199f")
 	)
 	(wire
 		(pts
@@ -3023,6 +3253,16 @@
 			(type default)
 		)
 		(uuid "ecec155f-3760-4900-9599-d342d878d36b")
+	)
+	(wire
+		(pts
+			(xy 53.34 187.96) (xy 53.34 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eda85fb8-7cb9-4854-9bbc-a80ba4f13693")
 	)
 	(wire
 		(pts
@@ -3104,6 +3344,16 @@
 		)
 		(uuid "05c237e3-987f-49f9-9caf-d8f052af56a0")
 	)
+	(label "CHIP_PU"
+		(at 76.2 185.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0c4c2db0-e4d5-41de-8c1f-e54765603bd5")
+	)
 	(label "RF_ESP"
 		(at 162.56 46.99 0)
 		(effects
@@ -3144,6 +3394,16 @@
 		)
 		(uuid "59b6ffc8-ded3-46ec-8781-6831454a4e61")
 	)
+	(label "CHIP_PU"
+		(at 171.45 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "606ee32e-1052-488a-b801-d2873bed3402")
+	)
 	(label "XTAL_N"
 		(at 45.72 181.61 180)
 		(effects
@@ -3153,6 +3413,16 @@
 			(justify right bottom)
 		)
 		(uuid "6eccfadd-5b34-42f4-8c86-3dba6bac0ac0")
+	)
+	(label "BOOT"
+		(at 76.2 179.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "90118d6b-03c6-4e12-922f-7924b1231304")
 	)
 	(label "RF_ANT"
 		(at 120.65 46.99 0)
@@ -3498,6 +3768,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 60.96 185.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1e9d8797-ac6e-4105-a821-e6f4e3ff284f")
+		(property "Reference" "SW2"
+			(at 60.96 187.198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 60.96 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR020"
+			(at 60.96 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 60.96 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XUNPU"
+			(at 60.96 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "TS-1088-AR02016"
+			(at 60.96 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 60.96 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C720477"
+			(at 60.96 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4e208137-9740-4966-9769-359ddde8ca94")
+		)
+		(pin "1"
+			(uuid "f3ae872d-3047-4f39-9211-077c83999707")
+		)
+		(instances
+			(project "mhadb-main-board"
+				(path "/108bdc05-5362-4b20-8d3b-92cc456652bf"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 132.08 46.99 90)
 		(unit 1)
@@ -3596,6 +3970,72 @@
 			(project "mhadb-main-board"
 				(path "/108bdc05-5362-4b20-8d3b-92cc456652bf"
 					(reference "L2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 53.34 187.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c6c18ec-6b0a-431b-8892-4c932d1cbddd")
+		(property "Reference" "#PWR012"
+			(at 53.34 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 53.34 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 53.34 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22a5f25c-42c3-4918-bdd4-4719060fce22")
+		)
+		(instances
+			(project "mhadb-main-board"
+				(path "/108bdc05-5362-4b20-8d3b-92cc456652bf"
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -4147,6 +4587,110 @@
 			(project "mhadb-main-board"
 				(path "/108bdc05-5362-4b20-8d3b-92cc456652bf"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 60.96 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5de6ea55-a8c1-4e49-91c4-c57a34c0b460")
+		(property "Reference" "SW1"
+			(at 60.96 180.848 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 60.96 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_TS-1088-xR020"
+			(at 60.96 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 60.96 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, two pins"
+			(at 60.96 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "XUNPU"
+			(at 60.96 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "TS-1088-AR02016"
+			(at 60.96 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 60.96 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C720477"
+			(at 60.96 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b51f0b81-c49f-4a0c-80d9-729918f9f631")
+		)
+		(pin "1"
+			(uuid "095d3d10-dca4-4b02-b250-f7f44872fc8f")
+		)
+		(instances
+			(project "mhadb-main-board"
+				(path "/108bdc05-5362-4b20-8d3b-92cc456652bf"
+					(reference "SW1")
 					(unit 1)
 				)
 			)

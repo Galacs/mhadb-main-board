@@ -4420,6 +4420,18 @@
 		(uuid 80077606-d063-439e-854e-0e2808093fc4)
 	)
 	(rectangle
+		(start 15.24 35.56)
+		(end 59.69 64.77)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a3309071-67a8-4eeb-b3f6-072726b70d4b)
+	)
+	(rectangle
 		(start 242.57 30.48)
 		(end 266.7 50.8)
 		(stroke
@@ -4515,6 +4527,18 @@
 		)
 		(uuid "b506e2fb-9ceb-4dc8-a98c-dd366e80514c")
 	)
+	(text "Line CAN/Power connector"
+		(exclude_from_sim no)
+		(at 35.56 38.608 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "caa04ab9-2ec2-47be-b950-da3ed590a7db")
+	)
 	(text "EN RC delay"
 		(exclude_from_sim no)
 		(at 146.558 73.66 0)
@@ -4536,6 +4560,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "09f8f761-51c0-4b1f-b308-b5dfc35c7ba0")
+	)
+	(junction
+		(at 39.37 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0abd4bd2-a501-4eae-bd42-abf1d0644856")
 	)
 	(junction
 		(at 55.88 148.59)
@@ -4598,6 +4628,12 @@
 		(uuid "33afde98-eb6e-47e5-8532-7eea0a028500")
 	)
 	(junction
+		(at 31.75 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "35fb5e63-5633-4c45-bd67-68d8f25ddacc")
+	)
+	(junction
 		(at 167.64 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4626,6 +4662,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "50fe0531-8b28-46ba-b8e8-f51e63c92e7d")
+	)
+	(junction
+		(at 31.75 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "59804118-ee4c-4403-bb66-50ea3df1260f")
 	)
 	(junction
 		(at 52.07 153.67)
@@ -4722,6 +4764,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bfa4c73c-9203-4861-86ff-e900fc365c6b")
+	)
+	(junction
+		(at 35.56 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c1c24e27-3e3f-4832-85a6-02ddf903e959")
+	)
+	(junction
+		(at 43.18 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb6af9a1-b7f6-416a-807c-6bfaae32c732")
 	)
 	(junction
 		(at 161.29 66.04)
@@ -4873,6 +4927,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 59.69) (xy 39.37 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "118e0f5b-72b1-4084-b7be-925e96d46153")
+	)
+	(wire
+		(pts
 			(xy 125.73 179.07) (xy 130.81 179.07)
 		)
 		(stroke
@@ -4933,6 +4997,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 46.99) (xy 39.37 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "198d23fe-030f-42cd-9400-673409301bb7")
+	)
+	(wire
+		(pts
 			(xy 262.89 46.99) (xy 256.54 46.99)
 		)
 		(stroke
@@ -4950,6 +5024,16 @@
 			(type default)
 		)
 		(uuid "1ee48531-e767-4af2-9a10-982beb315cb4")
+	)
+	(wire
+		(pts
+			(xy 46.99 59.69) (xy 46.99 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ee9fc83-5853-4ddb-8a05-35bd0156d141")
 	)
 	(wire
 		(pts
@@ -5123,6 +5207,16 @@
 	)
 	(wire
 		(pts
+			(xy 49.53 45.72) (xy 49.53 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43562630-e0da-4548-93ec-86020c8d1ed6")
+	)
+	(wire
+		(pts
 			(xy 31.75 81.28) (xy 43.18 81.28)
 		)
 		(stroke
@@ -5220,6 +5314,16 @@
 			(type default)
 		)
 		(uuid "56c95851-ee98-4f8c-abdd-c26b4eda3251")
+	)
+	(wire
+		(pts
+			(xy 30.48 59.69) (xy 31.75 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5734a6be-017e-4fa1-8159-4030b3f76f63")
 	)
 	(wire
 		(pts
@@ -5403,6 +5507,16 @@
 	)
 	(wire
 		(pts
+			(xy 35.56 59.69) (xy 35.56 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a484c6a-bfed-449b-88c4-d3134bd3b665")
+	)
+	(wire
+		(pts
 			(xy 161.29 68.58) (xy 161.29 66.04)
 		)
 		(stroke
@@ -5513,6 +5627,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 44.45) (xy 46.99 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75f94de3-b9a4-40be-95e2-f6dc5e88d199")
+	)
+	(wire
+		(pts
 			(xy 109.22 190.5) (xy 109.22 191.77)
 		)
 		(stroke
@@ -5530,6 +5654,16 @@
 			(type default)
 		)
 		(uuid "79122af2-e76b-458a-b2fa-13f62f488954")
+	)
+	(wire
+		(pts
+			(xy 31.75 49.53) (xy 31.75 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "793f1782-bbd2-4887-9d86-d6dc48564a8b")
 	)
 	(wire
 		(pts
@@ -5650,6 +5784,16 @@
 			(type default)
 		)
 		(uuid "816b0bb0-2545-4b78-a40a-833e7c21cffc")
+	)
+	(wire
+		(pts
+			(xy 31.75 49.53) (xy 25.4 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86553efd-7df4-4b14-b770-fee84002844f")
 	)
 	(wire
 		(pts
@@ -5983,6 +6127,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 52.07) (xy 26.67 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa8d5f6d-f5fc-41db-984e-bc4c345aae2d")
+	)
+	(wire
+		(pts
 			(xy 167.64 22.86) (xy 181.61 22.86)
 		)
 		(stroke
@@ -6020,6 +6174,26 @@
 			(type default)
 		)
 		(uuid "b301512a-2b95-44ee-b632-c28168eed651")
+	)
+	(wire
+		(pts
+			(xy 39.37 50.8) (xy 39.37 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b385959d-8f9e-47f6-b636-1fa73660f10f")
+	)
+	(wire
+		(pts
+			(xy 46.99 44.45) (xy 46.99 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3860898-0f4a-4f1a-8ba5-e3ef9041417d")
 	)
 	(wire
 		(pts
@@ -6203,6 +6377,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 49.53) (xy 49.53 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9ff7db7-0ad9-4d9b-be55-7b7c5f00b116")
+	)
+	(wire
+		(pts
 			(xy 254 36.83) (xy 254 60.96)
 		)
 		(stroke
@@ -6270,6 +6454,16 @@
 			(type default)
 		)
 		(uuid "d7e7c317-c5bb-4130-a889-3f9889466611")
+	)
+	(wire
+		(pts
+			(xy 35.56 59.69) (xy 31.75 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8cfebef-e257-4846-8ac9-8ad82b7eb3ab")
 	)
 	(wire
 		(pts
@@ -6463,6 +6657,26 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 59.69) (xy 46.99 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed78d8c5-1357-4bed-b763-f1e59357b3c7")
+	)
+	(wire
+		(pts
+			(xy 31.75 58.42) (xy 31.75 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed8305d8-834d-41d0-af93-49393d87639b")
+	)
+	(wire
+		(pts
 			(xy 53.34 187.96) (xy 53.34 185.42)
 		)
 		(stroke
@@ -6523,6 +6737,26 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 49.53) (xy 43.18 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2acc495-c5d8-4f5b-b4a3-c8967d95c6b5")
+	)
+	(wire
+		(pts
+			(xy 26.67 52.07) (xy 25.4 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3741b40-16ac-4ebf-8f65-66ccad40a9e9")
+	)
+	(wire
+		(pts
 			(xy 29.21 181.61) (xy 30.48 181.61)
 		)
 		(stroke
@@ -6530,6 +6764,16 @@
 			(type default)
 		)
 		(uuid "f4daa4a7-936a-42ea-9b3d-eeb443765088")
+	)
+	(wire
+		(pts
+			(xy 39.37 58.42) (xy 39.37 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5818531-d115-425d-9755-2071dc83c3bb")
 	)
 	(wire
 		(pts
@@ -6630,6 +6874,16 @@
 			(justify left bottom)
 		)
 		(uuid "351088c3-6911-4efd-8004-368859a9efb1")
+	)
+	(label "CANH"
+		(at 31.75 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "381fcbaa-5d8d-47f9-ba16-1f3c5bdad1b0")
 	)
 	(label "RF_TRANS"
 		(at 144.78 46.99 0)
@@ -6770,6 +7024,16 @@
 			(justify left bottom)
 		)
 		(uuid "ea28165f-978c-4d36-9e31-3510e6649861")
+	)
+	(label "CANL"
+		(at 31.75 46.99 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "edb4ea26-8388-4d22-8518-051935c7cc71")
 	)
 	(label "XTAL_N"
 		(at 166.37 78.74 0)
@@ -7713,6 +7977,117 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 20.32 46.99 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "115bd2db-3f5b-40ff-992a-ad615523cba0")
+		(property "Reference" "J5"
+			(at 20.066 55.626 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 20.32 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal"
+			(at 20.32 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 20.32 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 20.32 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Z"
+			(at 20.32 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C157926"
+			(at 20.32 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 20.32 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "S4B-PH-K-S(LF)(SN)"
+			(at 20.32 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "bba23ffe-7e24-451b-82c9-8de1f058a641")
+		)
+		(pin "3"
+			(uuid "6a99fa0c-d3c7-4a31-a284-a1cf3cc1d16f")
+		)
+		(pin "2"
+			(uuid "173bf1e6-2e48-4486-9a2f-cbfbfea0cf44")
+		)
+		(pin "1"
+			(uuid "2e03bef1-34a5-43a8-a3e9-819977d4b850")
+		)
+		(instances
+			(project "mhadb-main-board"
+				(path "/108bdc05-5362-4b20-8d3b-92cc456652bf"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 143.51 64.77 0)
 		(unit 1)
@@ -7941,6 +8316,73 @@
 			(project "mhadb-main-board"
 				(path "/108bdc05-5362-4b20-8d3b-92cc456652bf"
 					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 35.56 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21f9e79b-70bb-4f8c-8232-41f8eb2548ba")
+		(property "Reference" "#PWR024"
+			(at 35.56 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 35.56 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 35.56 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 35.56 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 35.56 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c926e11e-1423-4397-8aca-a4d6cf1b5b6a")
+		)
+		(instances
+			(project "mhadb-main-board"
+				(path "/108bdc05-5362-4b20-8d3b-92cc456652bf"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -8329,112 +8771,6 @@
 	)
 	(symbol
 		(lib_id "GLCS:H5VU10U")
-		(at 52.07 158.75 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "277a0d42-5f60-4d02-ad88-0727dea468bb")
-		(property "Reference" "D3"
-			(at 54.356 158.496 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "H5VU10U"
-			(at 54.61 160.0199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "GLCS:Diode_DFN1006"
-			(at 47.625 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2504101957_hongjiacheng-H5VU10U_C22395519.pdf"
-			(at 52.07 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "-55℃~+155℃ 0.8pF 16V 200nA 55W@8/20us 5A@8/20us 5V 6V ESD IEC 61000-4-2 Unidirectional DFN1006-2L ESD and Surge Protection (TVS/ESD) ROHS"
-			(at 52.07 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Basic" "E"
-			(at 52.07 158.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C22395519"
-			(at 52.07 158.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "hongjiacheng"
-			(at 52.07 158.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "H5VU10U"
-			(at 52.07 158.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ff12bfd7-8510-4b14-a918-5e4f16bbd624")
-		)
-		(pin "2"
-			(uuid "c569b2d8-a47d-4c06-9ac2-b327e6fa8c71")
-		)
-		(instances
-			(project "mhadb-main-board"
-				(path "/108bdc05-5362-4b20-8d3b-92cc456652bf"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "GLCS:H5VU10U")
 		(at 31.75 118.11 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8534,6 +8870,112 @@
 			(project "mhadb-main-board"
 				(path "/108bdc05-5362-4b20-8d3b-92cc456652bf"
 					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GLCS:H5VU10U")
+		(at 52.07 158.75 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "277a0d42-5f60-4d02-ad88-0727dea468bb")
+		(property "Reference" "D3"
+			(at 54.356 158.496 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "H5VU10U"
+			(at 54.61 160.0199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "GLCS:Diode_DFN1006"
+			(at 47.625 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2504101957_hongjiacheng-H5VU10U_C22395519.pdf"
+			(at 52.07 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 0.8pF 16V 200nA 55W@8/20us 5A@8/20us 5V 6V ESD IEC 61000-4-2 Unidirectional DFN1006-2L ESD and Surge Protection (TVS/ESD) ROHS"
+			(at 52.07 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "E"
+			(at 52.07 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C22395519"
+			(at 52.07 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 52.07 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "H5VU10U"
+			(at 52.07 158.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ff12bfd7-8510-4b14-a918-5e4f16bbd624")
+		)
+		(pin "2"
+			(uuid "c569b2d8-a47d-4c06-9ac2-b327e6fa8c71")
+		)
+		(instances
+			(project "mhadb-main-board"
+				(path "/108bdc05-5362-4b20-8d3b-92cc456652bf"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -8786,6 +9228,112 @@
 		)
 	)
 	(symbol
+		(lib_id "GLCS:H5VU10U")
+		(at 39.37 54.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d0e1b75-bb0d-490d-9b0e-eae43ff150e7")
+		(property "Reference" "D12"
+			(at 41.656 54.356 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "H5VU10U"
+			(at 41.91 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "GLCS:Diode_DFN1006"
+			(at 34.925 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2504101957_hongjiacheng-H5VU10U_C22395519.pdf"
+			(at 39.37 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 0.8pF 16V 200nA 55W@8/20us 5A@8/20us 5V 6V ESD IEC 61000-4-2 Unidirectional DFN1006-2L ESD and Surge Protection (TVS/ESD) ROHS"
+			(at 39.37 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "E"
+			(at 39.37 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C22395519"
+			(at 39.37 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 39.37 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "H5VU10U"
+			(at 39.37 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3624103-18f2-442c-a541-5af3b7abf1a5")
+		)
+		(pin "2"
+			(uuid "8aa23f01-2f35-446e-9f87-d5ff0c396f9e")
+		)
+		(instances
+			(project "mhadb-main-board"
+				(path "/108bdc05-5362-4b20-8d3b-92cc456652bf"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 40.64 186.69 0)
 		(unit 1)
@@ -8952,6 +9500,74 @@
 			(project "mhadb-main-board"
 				(path "/108bdc05-5362-4b20-8d3b-92cc456652bf"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 43.18 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a2f07cd-e927-441f-a3d6-44d61539d11f")
+		(property "Reference" "#FLG08"
+			(at 43.18 47.625 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 43.1801 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 43.18 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 43.18 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 43.18 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "019045a2-865a-4f60-8083-ec0672bb841d")
+		)
+		(instances
+			(project "mhadb-main-board"
+				(path "/108bdc05-5362-4b20-8d3b-92cc456652bf"
+					(reference "#FLG08")
 					(unit 1)
 				)
 			)
@@ -9130,6 +9746,73 @@
 			(project "mhadb-main-board"
 				(path "/108bdc05-5362-4b20-8d3b-92cc456652bf"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 26.67 53.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4581b82a-c1df-460f-b671-9bd777915878")
+		(property "Reference" "#PWR019"
+			(at 26.67 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 26.67 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 26.67 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 26.67 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 26.67 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a2f1d4c-4ebd-4ad3-9295-32d02403d8e9")
+		)
+		(instances
+			(project "mhadb-main-board"
+				(path "/108bdc05-5362-4b20-8d3b-92cc456652bf"
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -9577,6 +10260,74 @@
 			(project "mhadb-main-board"
 				(path "/108bdc05-5362-4b20-8d3b-92cc456652bf"
 					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 30.48 59.69 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5796603c-b038-4c40-8a48-137d65f2163e")
+		(property "Reference" "#FLG07"
+			(at 28.575 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 26.67 59.6899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 30.48 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 30.48 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a292a3e2-9258-43ea-8036-7f111a6c222f")
+		)
+		(instances
+			(project "mhadb-main-board"
+				(path "/108bdc05-5362-4b20-8d3b-92cc456652bf"
+					(reference "#FLG07")
 					(unit 1)
 				)
 			)
@@ -11649,6 +12400,112 @@
 		)
 	)
 	(symbol
+		(lib_id "GLCS:H5VU10U")
+		(at 31.75 54.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "95da42a2-8afb-4eb7-8a00-93938a9a5937")
+		(property "Reference" "D11"
+			(at 34.036 54.356 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "H5VU10U"
+			(at 34.29 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "GLCS:Diode_DFN1006"
+			(at 27.305 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2504101957_hongjiacheng-H5VU10U_C22395519.pdf"
+			(at 31.75 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 0.8pF 16V 200nA 55W@8/20us 5A@8/20us 5V 6V ESD IEC 61000-4-2 Unidirectional DFN1006-2L ESD and Surge Protection (TVS/ESD) ROHS"
+			(at 31.75 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "E"
+			(at 31.75 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C22395519"
+			(at 31.75 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 31.75 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "H5VU10U"
+			(at 31.75 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89bcf756-b62b-4c7f-9af1-ad5e7007fd7c")
+		)
+		(pin "2"
+			(uuid "25b50a52-4df9-4ab5-a36b-52e507174364")
+		)
+		(instances
+			(project "mhadb-main-board"
+				(path "/108bdc05-5362-4b20-8d3b-92cc456652bf"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 219.71 36.83 0)
 		(unit 1)
@@ -12052,6 +12909,71 @@
 			(project "mhadb-main-board"
 				(path "/108bdc05-5362-4b20-8d3b-92cc456652bf"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 49.53 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a19ac118-5d9a-403e-a6a8-39d35abc527e")
+		(property "Reference" "#PWR030"
+			(at 49.53 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 49.53 41.402 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 49.53 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 49.53 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 49.53 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c034a4d8-79c4-4125-a77f-45b74eef64fc")
+		)
+		(instances
+			(project "mhadb-main-board"
+				(path "/108bdc05-5362-4b20-8d3b-92cc456652bf"
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -12868,6 +13790,112 @@
 			(project "mhadb-main-board"
 				(path "/108bdc05-5362-4b20-8d3b-92cc456652bf"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GLCS:H5VU10U")
+		(at 46.99 54.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b9858ab3-14a2-415e-8919-0e9c1f5e5ca8")
+		(property "Reference" "D13"
+			(at 49.276 54.356 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "H5VU10U"
+			(at 49.53 55.8799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "GLCS:Diode_DFN1006"
+			(at 42.545 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2504101957_hongjiacheng-H5VU10U_C22395519.pdf"
+			(at 46.99 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+155℃ 0.8pF 16V 200nA 55W@8/20us 5A@8/20us 5V 6V ESD IEC 61000-4-2 Unidirectional DFN1006-2L ESD and Surge Protection (TVS/ESD) ROHS"
+			(at 46.99 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "E"
+			(at 46.99 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C22395519"
+			(at 46.99 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "hongjiacheng"
+			(at 46.99 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "H5VU10U"
+			(at 46.99 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1fe5c278-2355-43d3-a845-620fdbb67a4d")
+		)
+		(pin "2"
+			(uuid "02626eef-b009-430f-8d83-384f6b110623")
+		)
+		(instances
+			(project "mhadb-main-board"
+				(path "/108bdc05-5362-4b20-8d3b-92cc456652bf"
+					(reference "D13")
 					(unit 1)
 				)
 			)

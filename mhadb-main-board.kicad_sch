@@ -2596,6 +2596,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 73.66) (xy 245.11 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b2f3bb5-39a2-4f36-a26c-89a031ac7b62")
+	)
+	(wire
+		(pts
 			(xy 209.55 40.64) (xy 209.55 53.34)
 		)
 		(stroke
@@ -2603,6 +2613,16 @@
 			(type default)
 		)
 		(uuid "5b3a19ed-9087-4d34-af7c-bc638ba2924f")
+	)
+	(wire
+		(pts
+			(xy 252.73 73.66) (xy 266.7 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d93defa-92a0-4c4e-b7a0-3583b6e6450f")
 	)
 	(wire
 		(pts
@@ -2996,6 +3016,16 @@
 	)
 	(wire
 		(pts
+			(xy 266.7 72.39) (xy 266.7 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecec155f-3760-4900-9599-d342d878d36b")
+	)
+	(wire
+		(pts
 			(xy 204.47 22.86) (xy 205.74 22.86)
 		)
 		(stroke
@@ -3103,6 +3133,16 @@
 			(justify left bottom)
 		)
 		(uuid "4bf2d148-0143-4015-b67c-6489d3280c43")
+	)
+	(label "BOOT"
+		(at 240.03 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "59b6ffc8-ded3-46ec-8781-6831454a4e61")
 	)
 	(label "XTAL_N"
 		(at 45.72 181.61 180)
@@ -5961,6 +6001,71 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
+		(at 266.7 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ceb2852d-c8ad-4bf7-b272-8cc76795b64b")
+		(property "Reference" "#PWR032"
+			(at 266.7 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 266.446 68.326 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 266.7 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9c0efd0f-4033-41ee-b685-dce657280bd7")
+		)
+		(instances
+			(project "mhadb-main-board"
+				(path "/108bdc05-5362-4b20-8d3b-92cc456652bf"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
 		(at 204.47 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6562,6 +6667,110 @@
 			(project "mhadb-main-board"
 				(path "/108bdc05-5362-4b20-8d3b-92cc456652bf"
 					(reference "L4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 248.92 73.66 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ea85370f-240f-4e88-a4ec-94da72909f64")
+		(property "Reference" "R9"
+			(at 248.92 75.946 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 248.92 77.724 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 248.92 71.882 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 248.92 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 248.92 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Y"
+			(at 248.92 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25744"
+			(at 248.92 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Uniroyal Elec"
+			(at 248.92 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "0402WGF1002TCE"
+			(at 248.92 73.66 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d58f0852-b9b5-45ad-a48b-8188693be2ae")
+		)
+		(pin "1"
+			(uuid "d08651ec-cb15-41d9-993d-9d8ce61dd481")
+		)
+		(instances
+			(project "mhadb-main-board"
+				(path "/108bdc05-5362-4b20-8d3b-92cc456652bf"
+					(reference "R9")
 					(unit 1)
 				)
 			)

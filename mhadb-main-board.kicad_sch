@@ -8324,12 +8324,6 @@
 		(uuid "50fdbb3c-3078-4d7c-b08a-48df9d75339b")
 	)
 	(junction
-		(at 96.52 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "562c37f2-7521-43c7-9393-79bf9114cd25")
-	)
-	(junction
 		(at 209.55 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8396,12 +8390,6 @@
 		(uuid "755e7310-bb90-4e04-9bc3-9fe2d3ce9e72")
 	)
 	(junction
-		(at 107.95 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "75646ba3-2ea3-4a47-8dfb-273bb1f73f17")
-	)
-	(junction
 		(at 55.88 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8462,22 +8450,10 @@
 		(uuid "a02c5ab7-9741-48f1-86e5-130aced1e8a4")
 	)
 	(junction
-		(at 109.22 49.53)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a1b0574b-3880-4fa7-ae14-5c073fdef8cd")
-	)
-	(junction
 		(at 101.6 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a26d9445-828e-49db-88f0-cfec1dbbe724")
-	)
-	(junction
-		(at 276.86 125.73)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a49a8b78-1db5-4802-9274-b7125c7c8762")
 	)
 	(junction
 		(at 35.56 26.67)
@@ -9313,16 +9289,6 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 54.61) (xy 116.84 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20a10bd9-bff7-48f5-b22e-d7c5a8b5d12c")
-	)
-	(wire
-		(pts
 			(xy 181.61 27.94) (xy 181.61 29.21)
 		)
 		(stroke
@@ -9693,16 +9659,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 49.53) (xy 109.22 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c332c8f-b40b-4a98-9dbc-2b2b67d73ccd")
-	)
-	(wire
-		(pts
 			(xy 167.64 29.21) (xy 181.61 29.21)
 		)
 		(stroke
@@ -9993,7 +9949,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 54.61) (xy 107.95 54.61)
+			(xy 91.44 54.61) (xy 116.84 54.61)
 		)
 		(stroke
 			(width 0)
@@ -10123,7 +10079,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 125.73) (xy 279.4 127)
+			(xy 275.59 125.73) (xy 275.59 127)
 		)
 		(stroke
 			(width 0)
@@ -10203,7 +10159,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 66.04) (xy 96.52 62.23)
+			(xy 96.52 59.69) (xy 96.52 66.04)
 		)
 		(stroke
 			(width 0)
@@ -11123,16 +11079,6 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 124.46) (xy 276.86 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b7adbcf-eb75-4e4c-8034-3e7982e4697a")
-	)
-	(wire
-		(pts
 			(xy 91.44 142.24) (xy 88.9 142.24)
 		)
 		(stroke
@@ -11140,16 +11086,6 @@
 			(type default)
 		)
 		(uuid "8bc895b8-40c2-4ce1-9575-fb0fa190de28")
-	)
-	(wire
-		(pts
-			(xy 96.52 62.23) (xy 96.52 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8be1ba8f-e02c-4db5-a81a-a59c8a537edd")
 	)
 	(wire
 		(pts
@@ -11293,7 +11229,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 49.53) (xy 91.44 49.53)
+			(xy 91.44 49.53) (xy 129.54 49.53)
 		)
 		(stroke
 			(width 0)
@@ -11520,16 +11456,6 @@
 			(type default)
 		)
 		(uuid "9e0e78bd-967b-40b1-92a8-060d94b863df")
-	)
-	(wire
-		(pts
-			(xy 271.78 125.73) (xy 276.86 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ea173dd-8a09-43b2-b20b-943e87ff6036")
 	)
 	(wire
 		(pts
@@ -11980,6 +11906,16 @@
 			(type default)
 		)
 		(uuid "b69b3482-15af-4a19-8cfe-27a76250e08f")
+	)
+	(wire
+		(pts
+			(xy 271.78 125.73) (xy 275.59 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6d350c9-2639-42ea-a0e4-e9e6a757428b")
 	)
 	(wire
 		(pts
@@ -12980,16 +12916,6 @@
 			(type default)
 		)
 		(uuid "f0a9a81c-17f4-41d4-a710-8378cd6d9abb")
-	)
-	(wire
-		(pts
-			(xy 276.86 125.73) (xy 279.4 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f12c11e3-5baa-4845-a3e4-89990cd33c4f")
 	)
 	(wire
 		(pts
@@ -14123,74 +14049,6 @@
 			(project "mhadb-main-board"
 				(path "/108bdc05-5362-4b20-8d3b-92cc456652bf"
 					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 96.52 62.23 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "041a2056-f916-41bb-8496-8cadb9432a0d")
-		(property "Reference" "TP3"
-			(at 101.6 62.2299 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 98.5521 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 96.52 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 96.52 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 96.52 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3de6035f-f705-4c22-9bd0-d31afbd620e3")
-		)
-		(instances
-			(project "mhadb-main-board"
-				(path "/108bdc05-5362-4b20-8d3b-92cc456652bf"
-					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -15729,7 +15587,7 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(uuid "14efda30-90a9-487f-a5e7-4a65e92ca02f")
+		(uuid "16ad62d2-8976-4833-ab10-0fca19aec236")
 		(property "Reference" "H3"
 			(at 270.51 117.094 0)
 			(effects
@@ -15776,78 +15634,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1086cb1e-91ab-4a98-a2b8-51e145d0073f")
-		)
-		(instances
-			(project "mhadb-main-board"
-				(path "/108bdc05-5362-4b20-8d3b-92cc456652bf"
-					(reference "H3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 276.86 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "16ad62d2-8976-4833-ab10-0fca19aec236")
-		(property "Reference" "H4"
-			(at 275.59 117.094 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 280.67 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "GLCS:MountingHole_3.2mm_M3_DIN965_Pad_Thin"
-			(at 276.86 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 276.86 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 276.86 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
 			(uuid "028e6e08-6d97-49d2-bf46-113aefae7605")
 		)
 		(instances
 			(project "mhadb-main-board"
 				(path "/108bdc05-5362-4b20-8d3b-92cc456652bf"
-					(reference "H4")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -19400,73 +19192,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 107.95 54.61 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "3d104289-b51c-44c0-9f51-17cf2b197ee1")
-		(property "Reference" "TP4"
-			(at 106.68 59.436 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 105.41 56.6421 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 102.87 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 102.87 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 107.95 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4702eee2-70f5-4c0f-9d43-c484180dcb05")
-		)
-		(instances
-			(project "mhadb-main-board"
-				(path "/108bdc05-5362-4b20-8d3b-92cc456652bf"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Interface_CAN_LIN:SN65HVD230")
 		(at 86.36 111.76 0)
 		(unit 1)
@@ -20308,73 +20033,6 @@
 			(project "mhadb-main-board"
 				(path "/108bdc05-5362-4b20-8d3b-92cc456652bf"
 					(reference "#PWR031")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 109.22 49.53 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "4dbea354-0e47-4142-9780-f1a98eb49750")
-		(property "Reference" "TP5"
-			(at 115.57 52.578 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 106.68 51.5621 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 104.14 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 104.14 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 109.22 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "886ff4dc-8df5-4a7e-af91-40d060dd9e99")
-		)
-		(instances
-			(project "mhadb-main-board"
-				(path "/108bdc05-5362-4b20-8d3b-92cc456652bf"
-					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -23347,7 +23005,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 279.4 127 0)
+		(at 275.59 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23355,7 +23013,7 @@
 		(dnp no)
 		(uuid "8ad659a5-2913-4828-9366-69fcb12d3cc2")
 		(property "Reference" "#PWR089"
-			(at 279.4 133.35 0)
+			(at 275.59 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23364,7 +23022,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 279.146 131.572 0)
+			(at 275.336 131.572 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23373,7 +23031,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 279.4 127 0)
+			(at 275.59 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23382,7 +23040,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 279.4 127 0)
+			(at 275.59 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23391,7 +23049,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 279.4 127 0)
+			(at 275.59 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -20460,7 +20460,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C73501"
+		(property "JLCPCB Part #" "C5161638"
 			(at 132.08 170.18 90)
 			(effects
 				(font
@@ -20469,7 +20469,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer" "Sunlord"
+		(property "Manufacturer" "Shun Xiang Nuo"
 			(at 132.08 170.18 90)
 			(effects
 				(font
@@ -20478,7 +20478,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer Part Number" "SWRH1207B-180MT"
+		(property "Manufacturer Part Number" "SMDRI127-180MT"
 			(at 132.08 170.18 90)
 			(effects
 				(font

@@ -15362,7 +15362,6 @@
 			(size 1 1.6)
 			(property pad_prop_heatsink)
 			(layers "F.Cu" "F.Mask")
-			(net 5 "GND")
 			(zone_connect 2)
 			(uuid "2833104a-12d0-4069-9f82-78153f182120")
 		)
@@ -18108,7 +18107,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C73501"
+		(property "JLCPCB Part #" "C5161638"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18121,7 +18120,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Sunlord"
+		(property "Manufacturer" "Shun Xiang Nuo"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -18134,7 +18133,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "SWRH1207B-180MT"
+		(property "Manufacturer Part Number" "SMDRI127-180MT"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")

@@ -13924,7 +13924,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "06643619-df3f-48e3-84de-23d2bb19ee18")
+		(uuid "06643619-df3f-48e3-84de-23d2bb19ee19")
 		(property "Reference" "R14"
 			(at 45.72 147.066 90)
 			(effects
@@ -14005,10 +14005,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "918821bc-824b-402e-ab56-f75e285247e6")
+			(uuid "918821bc-824b-402e-ab56-f75e285247e7")
 		)
 		(pin "2"
-			(uuid "d4d55a62-e711-4539-b5e4-2aa0b8f5a9fe")
+			(uuid "d4d55a62-e711-4539-b5e4-2aa0b8f5a9ff")
 		)
 		(instances
 			(project "mhadb-main-board"
@@ -15659,7 +15659,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
 			(at 107.95 44.45 0)
 			(effects
 				(font
@@ -15679,6 +15679,42 @@
 		)
 		(property "Description" "Temperature dependent resistor"
 			(at 107.95 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Basic" "Z"
+			(at 107.95 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C131337"
+			(at 107.95 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "JST"
+			(at 107.95 44.45 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "B2B-PH-K-S(LF)(SN)"
+			(at 107.95 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16472,7 +16508,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "277a0d42-5f60-4d02-ad88-0727dea468bb")
+		(uuid "277a0d42-5f60-4d02-ad88-0727dea468bc")
 		(property "Reference" "D8"
 			(at 257.556 154.686 90)
 			(effects
@@ -16556,10 +16592,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "ff12bfd7-8510-4b14-a918-5e4f16bbd624")
+			(uuid "ff12bfd7-8510-4b14-a918-5e4f16bbd625")
 		)
 		(pin "2"
-			(uuid "c569b2d8-a47d-4c06-9ac2-b327e6fa8c71")
+			(uuid "c569b2d8-a47d-4c06-9ac2-b327e6fa8c72")
 		)
 		(instances
 			(project "mhadb-main-board"

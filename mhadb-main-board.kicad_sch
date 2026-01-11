@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "108bdc05-5362-4b20-8d3b-92cc456652bf")
 	(paper "A4")
+	(title_block
+		(title "MHADB Main Board")
+		(date "2026-01-11")
+		(rev "01")
+		(company "Mechadiabatik")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x04_Pin"
 			(pin_names

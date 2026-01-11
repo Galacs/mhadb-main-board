@@ -8156,12 +8156,6 @@
 		(uuid "187c753a-bfed-4489-ab43-389eae2f0c45")
 	)
 	(junction
-		(at 259.08 160.02)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1c03ed8f-8851-490f-a6ef-4c29c391c257")
-	)
-	(junction
 		(at 60.96 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8226,12 +8220,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2f727731-b711-4e11-973f-91e36c5c96ad")
-	)
-	(junction
-		(at 77.47 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "318195c9-9db5-4f94-8d52-a734fbe1fc51")
 	)
 	(junction
 		(at 43.18 154.94)
@@ -8570,12 +8558,6 @@
 		(uuid "e3ecbfb1-7f66-4dab-aa31-a890f948a9e8")
 	)
 	(junction
-		(at 255.27 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e5cd3455-7c0a-4e99-9f63-0bd55cadd052")
-	)
-	(junction
 		(at 262.89 160.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8618,12 +8600,6 @@
 		(uuid "ee8afb0f-d95f-4280-9817-5f05dd9a7f27")
 	)
 	(junction
-		(at 119.38 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "efc740e4-19a7-495d-b75b-ef2b7152f954")
-	)
-	(junction
 		(at 266.7 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8634,12 +8610,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f0b2bf57-2175-4307-881b-ba1352b286d8")
-	)
-	(junction
-		(at 35.56 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fa7f9ea3-479f-4ca2-9972-27caf90c3466")
 	)
 	(junction
 		(at 175.26 153.67)
@@ -8806,16 +8776,6 @@
 			(type default)
 		)
 		(uuid "020b61dd-96e5-46c3-baa0-f98bc055d1f5")
-	)
-	(wire
-		(pts
-			(xy 35.56 83.82) (xy 35.56 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "028c49ea-265f-4b3b-90d9-05ce18a477fd")
 	)
 	(wire
 		(pts
@@ -9329,16 +9289,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 86.36) (xy 119.38 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "246aeec1-8b78-4209-9a1c-77891d3aca70")
-	)
-	(wire
-		(pts
 			(xy 248.92 147.32) (xy 262.89 147.32)
 		)
 		(stroke
@@ -9849,16 +9799,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 86.36) (xy 90.17 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a0ffb85-dee6-4e41-8638-68e9860def11")
-	)
-	(wire
-		(pts
 			(xy 134.62 170.18) (xy 135.89 170.18)
 		)
 		(stroke
@@ -9869,7 +9809,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 86.36) (xy 121.92 86.36)
+			(xy 116.84 86.36) (xy 121.92 86.36)
 		)
 		(stroke
 			(width 0)
@@ -10369,7 +10309,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 76.2) (xy 35.56 74.93)
+			(xy 35.56 74.93) (xy 35.56 83.82)
 		)
 		(stroke
 			(width 0)
@@ -10516,16 +10456,6 @@
 			(type default)
 		)
 		(uuid "6d5573ff-ac18-4228-9e2a-cdc858c6989f")
-	)
-	(wire
-		(pts
-			(xy 255.27 149.86) (xy 255.27 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d6d2bd4-8576-421b-b093-376d48f46c45")
 	)
 	(wire
 		(pts
@@ -10896,16 +10826,6 @@
 			(type default)
 		)
 		(uuid "8082f388-56cf-43c6-abe8-6a937d05ea03")
-	)
-	(wire
-		(pts
-			(xy 255.27 158.75) (xy 255.27 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "810ecfbb-f40b-41d2-b7eb-0035fc1f1f9f")
 	)
 	(wire
 		(pts
@@ -11379,16 +11299,6 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 160.02) (xy 255.27 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c40877f-309d-4160-ac76-6257b56c4f39")
-	)
-	(wire
-		(pts
 			(xy 87.63 180.34) (xy 86.36 180.34)
 		)
 		(stroke
@@ -11589,7 +11499,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 149.86) (xy 273.05 149.86)
+			(xy 248.92 149.86) (xy 273.05 149.86)
 		)
 		(stroke
 			(width 0)
@@ -12016,16 +11926,6 @@
 			(type default)
 		)
 		(uuid "bb482e02-d9f7-4942-9d80-4ec8da8c114e")
-	)
-	(wire
-		(pts
-			(xy 255.27 149.86) (xy 248.92 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb6d736c-be4f-460a-a82a-548a1a3b8743")
 	)
 	(wire
 		(pts
@@ -13049,7 +12949,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 86.36) (xy 77.47 86.36)
+			(xy 72.39 86.36) (xy 90.17 86.36)
 		)
 		(stroke
 			(width 0)
@@ -17092,112 +16992,6 @@
 		)
 	)
 	(symbol
-		(lib_id "GLCS:H5VU10U")
-		(at 255.27 154.94 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "277a0d42-5f60-4d02-ad88-0727dea468bc")
-		(property "Reference" "D13"
-			(at 257.556 154.686 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "H5VU10U"
-			(at 257.81 156.2099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "GLCS:Diode_DFN1006"
-			(at 250.825 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2504101957_hongjiacheng-H5VU10U_C22395519.pdf"
-			(at 255.27 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "-55℃~+155℃ 0.8pF 16V 200nA 55W@8/20us 5A@8/20us 5V 6V ESD IEC 61000-4-2 Unidirectional DFN1006-2L ESD and Surge Protection (TVS/ESD) ROHS"
-			(at 255.27 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Basic" "E"
-			(at 255.27 154.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C22395519"
-			(at 255.27 154.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "hongjiacheng"
-			(at 255.27 154.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer Part Number" "H5VU10U"
-			(at 255.27 154.94 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ff12bfd7-8510-4b14-a918-5e4f16bbd625")
-		)
-		(pin "2"
-			(uuid "c569b2d8-a47d-4c06-9ac2-b327e6fa8c72")
-		)
-		(instances
-			(project "mhadb-main-board"
-				(path "/108bdc05-5362-4b20-8d3b-92cc456652bf"
-					(reference "D13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 83.82 144.78 0)
 		(mirror y)
@@ -20112,7 +19906,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4f169cc5-0496-46f8-9dfb-01dce2079e2b")
-		(property "Reference" "TP6"
+		(property "Reference" "TP1"
 			(at 112.776 133.858 0)
 			(effects
 				(font
@@ -20164,7 +19958,7 @@
 		(instances
 			(project "mhadb-main-board"
 				(path "/108bdc05-5362-4b20-8d3b-92cc456652bf"
-					(reference "TP6")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -22178,7 +21972,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "76f5bba3-0478-4904-98a8-3710886aae03")
-		(property "Reference" "TP9"
+		(property "Reference" "TP3"
 			(at 147.066 107.95 90)
 			(effects
 				(font
@@ -22230,7 +22024,7 @@
 		(instances
 			(project "mhadb-main-board"
 				(path "/108bdc05-5362-4b20-8d3b-92cc456652bf"
-					(reference "TP9")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -23012,7 +22806,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ad659a5-2913-4828-9366-69fcb12d3cc2")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR073"
 			(at 275.59 133.35 0)
 			(effects
 				(font
@@ -23063,7 +22857,7 @@
 		(instances
 			(project "mhadb-main-board"
 				(path "/108bdc05-5362-4b20-8d3b-92cc456652bf"
-					(reference "#PWR089")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -24724,142 +24518,6 @@
 			(project "mhadb-main-board"
 				(path "/108bdc05-5362-4b20-8d3b-92cc456652bf"
 					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 119.38 86.36 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a334d08b-2a15-4884-b64d-ccb2f0b6233f")
-		(property "Reference" "TP7"
-			(at 121.92 89.6619 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 116.84 88.3921 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 114.3 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 114.3 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 119.38 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7c229246-98cb-4660-84d6-78fe4fe12482")
-		)
-		(instances
-			(project "mhadb-main-board"
-				(path "/108bdc05-5362-4b20-8d3b-92cc456652bf"
-					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 77.47 86.36 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a5fa25d4-3720-4e91-8f88-5bbd9a52d3ea")
-		(property "Reference" "TP2"
-			(at 80.01 89.6619 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 74.93 88.3921 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 72.39 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 72.39 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 77.47 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "001e0c5d-f4d9-40f6-80b5-650c67c98f3c")
-		)
-		(instances
-			(project "mhadb-main-board"
-				(path "/108bdc05-5362-4b20-8d3b-92cc456652bf"
-					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -27671,74 +27329,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 35.56 76.2 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "da844067-1cc2-4ef4-aa95-e6bd0ff38858")
-		(property "Reference" "TP1"
-			(at 40.64 76.1999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 37.5921 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
-			(at 35.56 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 35.56 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 35.56 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "69f1d303-e08a-4f25-bc63-934a383f4fc4")
-		)
-		(instances
-			(project "mhadb-main-board"
-				(path "/108bdc05-5362-4b20-8d3b-92cc456652bf"
-					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 31.75 176.53 270)
 		(unit 1)
@@ -27949,7 +27539,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "de5687e1-75f2-4ef0-a096-fe22ca89d577")
-		(property "Reference" "TP8"
+		(property "Reference" "TP2"
 			(at 138.176 164.846 0)
 			(effects
 				(font
@@ -28001,7 +27591,7 @@
 		(instances
 			(project "mhadb-main-board"
 				(path "/108bdc05-5362-4b20-8d3b-92cc456652bf"
-					(reference "TP8")
+					(reference "TP2")
 					(unit 1)
 				)
 			)

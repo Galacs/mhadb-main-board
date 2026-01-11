@@ -515,51 +515,57 @@
         "wire_width": 6
       },
       {
+        "name": "BGND",
+        "pcb_color": "rgb(0, 194, 0)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
         "name": "CAN",
         "pcb_color": "rgb(221, 133, 0)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "GND",
         "pcb_color": "rgb(132, 132, 132)",
-        "priority": 5,
+        "priority": 6,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "I2C",
         "pcb_color": "rgb(194, 0, 194)",
-        "priority": 3,
+        "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "PWR",
         "pcb_color": "rgb(255, 3, 17)",
-        "priority": 9,
+        "priority": 10,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "RF",
         "pcb_color": "rgb(255, 231, 6)",
-        "priority": 8,
+        "priority": 9,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "SDIO",
         "pcb_color": "rgb(0, 255, 255)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "SPI_FLASH",
         "pcb_color": "rgb(255, 153, 0)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "UART",
         "pcb_color": "rgb(22, 5, 255)",
-        "priority": 7,
+        "priority": 8,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
@@ -567,13 +573,13 @@
         "diff_pair_width": 0.359,
         "name": "USB",
         "pcb_color": "rgb(34, 255, 22)",
-        "priority": 6,
+        "priority": 7,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       },
       {
         "name": "XTAL",
         "pcb_color": "rgb(255, 0, 255)",
-        "priority": 4,
+        "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
@@ -622,6 +628,10 @@
       {
         "netclass": "CAN",
         "pattern": "/CAN*"
+      },
+      {
+        "netclass": "BGND",
+        "pattern": "BGND"
       }
     ]
   },
@@ -633,7 +643,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "../Downloads/mhadb-main-board.step",
       "svg": "",
       "vrml": ""
     },

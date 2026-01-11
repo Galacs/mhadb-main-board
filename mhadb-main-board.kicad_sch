@@ -8399,6 +8399,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 90.17) (xy 245.11 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "037fc840-b862-4f9b-8d8d-e72ab7918924")
+	)
+	(wire
+		(pts
 			(xy 83.82 139.7) (xy 83.82 140.97)
 		)
 		(stroke
@@ -9709,6 +9719,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 85.09) (xy 245.11 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b1b98ed-e54c-43ca-b43e-0925f2e58b57")
+	)
+	(wire
+		(pts
 			(xy 240.03 69.85) (xy 245.11 69.85)
 		)
 		(stroke
@@ -10369,6 +10389,16 @@
 	)
 	(wire
 		(pts
+			(xy 240.03 82.55) (xy 245.11 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "801e31a6-769b-4147-8c1a-3b037edb4dfe")
+	)
+	(wire
+		(pts
 			(xy 125.73 170.18) (xy 127 170.18)
 		)
 		(stroke
@@ -10526,6 +10556,16 @@
 			(type default)
 		)
 		(uuid "8b17bd22-9ded-491f-b7f8-65dbfc479b21")
+	)
+	(wire
+		(pts
+			(xy 240.03 87.63) (xy 245.11 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b33d15b-faa6-4d03-9538-6830838eae64")
 	)
 	(wire
 		(pts
@@ -26929,6 +26969,82 @@
 			(project "mhadb-main-board"
 				(path "/108bdc05-5362-4b20-8d3b-92cc456652bf"
 					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x04_Pin")
+		(at 250.19 87.63 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d83e1c87-a7fb-4386-9c6c-f0d7b525841e")
+		(property "Reference" "J8"
+			(at 251.46 86.3599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x04_Pin"
+			(at 252.73 86.36 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
+			(at 250.19 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 250.19 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 250.19 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "1091c8f7-0c54-4a6b-9c0c-2295a7ec163c")
+		)
+		(pin "3"
+			(uuid "0c497400-bcd5-4038-b171-b82556001ea7")
+		)
+		(pin "2"
+			(uuid "03024cce-afeb-40cb-809d-379be26e6f4c")
+		)
+		(pin "1"
+			(uuid "7d10c4e0-b805-4e2e-9763-c5bc73955988")
+		)
+		(instances
+			(project "mhadb-main-board"
+				(path "/108bdc05-5362-4b20-8d3b-92cc456652bf"
+					(reference "J8")
 					(unit 1)
 				)
 			)

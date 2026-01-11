@@ -8569,10 +8569,6 @@
 		(uuid "01583edb-33ac-4e2e-945d-bb507f67a666")
 	)
 	(no_connect
-		(at 240.03 102.87)
-		(uuid "02187c60-af62-4f04-93d7-12095914dc72")
-	)
-	(no_connect
 		(at 173.99 115.57)
 		(uuid "02b34b00-cd2e-4f6a-9437-4fb520a1a173")
 	)
@@ -8587,10 +8583,6 @@
 	(no_connect
 		(at 173.99 67.31)
 		(uuid "10d7ca7a-992a-45a5-a5d4-a782089b9545")
-	)
-	(no_connect
-		(at 240.03 100.33)
-		(uuid "15f8571e-185a-46d0-9336-572504c76d43")
 	)
 	(no_connect
 		(at 240.03 80.01)
@@ -8629,6 +8621,10 @@
 		(uuid "4f1b830e-e174-4dfb-955e-b399e5013454")
 	)
 	(no_connect
+		(at 173.99 125.73)
+		(uuid "5361a79f-179a-43f0-bd57-ab7eecb4a797")
+	)
+	(no_connect
 		(at 240.03 105.41)
 		(uuid "58deb42c-4e17-47d9-930f-5b65ccca536d")
 	)
@@ -8657,6 +8653,10 @@
 		(uuid "a1c506ca-0cbd-4135-9eac-a82e40d77812")
 	)
 	(no_connect
+		(at 240.03 115.57)
+		(uuid "ace06cc1-b13f-4402-91ed-64528893e321")
+	)
+	(no_connect
 		(at 173.99 105.41)
 		(uuid "ae0fbc9e-d648-41df-b2f6-6bdaeb97a9d8")
 	)
@@ -8669,6 +8669,10 @@
 		(uuid "b73ffd07-5f40-4b2e-9f2a-df92ad24332d")
 	)
 	(no_connect
+		(at 240.03 118.11)
+		(uuid "b833ec52-b437-46a7-a5c8-c45babe437f3")
+	)
+	(no_connect
 		(at 240.03 125.73)
 		(uuid "c15a0e2b-0c8c-414d-8ae8-0bf5498cd60f")
 	)
@@ -8679,6 +8683,10 @@
 	(no_connect
 		(at 173.99 90.17)
 		(uuid "c499af73-93bc-4c44-819d-41269200dfb0")
+	)
+	(no_connect
+		(at 173.99 120.65)
+		(uuid "c887789a-05e0-4254-a6e1-b385b8df7302")
 	)
 	(no_connect
 		(at 173.99 100.33)
@@ -9104,16 +9112,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 125.73) (xy 173.99 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "170f540f-2ad9-42a4-8a53-4e91eb8c843c")
-	)
-	(wire
-		(pts
 			(xy 116.84 148.59) (xy 116.84 152.4)
 		)
 		(stroke
@@ -9251,6 +9249,16 @@
 			(type default)
 		)
 		(uuid "220745cc-f205-428e-976a-5f3987fe6bc4")
+	)
+	(wire
+		(pts
+			(xy 240.03 102.87) (xy 247.65 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22d3ef49-9ae7-4c28-81ad-57e5bcf81021")
 	)
 	(wire
 		(pts
@@ -9531,6 +9539,16 @@
 			(type default)
 		)
 		(uuid "38d0613a-b649-4ea7-9bb8-49af04cdbbae")
+	)
+	(wire
+		(pts
+			(xy 240.03 100.33) (xy 247.65 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39b58a30-464a-4aad-bb14-d627e253a412")
 	)
 	(wire
 		(pts
@@ -10714,6 +10732,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 74.93) (xy 240.03 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c1fcd63-4635-4786-947a-6af868e7a74d")
+	)
+	(wire
+		(pts
 			(xy 30.48 114.3) (xy 30.48 115.57)
 		)
 		(stroke
@@ -11031,16 +11059,6 @@
 			(type default)
 		)
 		(uuid "8ee64246-9f33-4c0c-8625-e9a96efaaf8e")
-	)
-	(wire
-		(pts
-			(xy 247.65 118.11) (xy 240.03 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f97da69-af8d-4653-bc91-fda150de7896")
 	)
 	(wire
 		(pts
@@ -11554,16 +11572,6 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 115.57) (xy 240.03 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a7cea5c7-b14e-41e1-bc59-a3ae63d67da1")
-	)
-	(wire
-		(pts
 			(xy 53.34 76.2) (xy 48.26 76.2)
 		)
 		(stroke
@@ -11891,16 +11899,6 @@
 			(type default)
 		)
 		(uuid "b9828d54-d8da-43b8-9da4-12b7c9a65949")
-	)
-	(wire
-		(pts
-			(xy 165.1 120.65) (xy 173.99 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bad8574a-317b-46ef-a8c3-14e4a9d4da41")
 	)
 	(wire
 		(pts
@@ -12884,6 +12882,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 77.47) (xy 240.03 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4b2208a-35c5-4b75-acce-7261e4c558a2")
+	)
+	(wire
+		(pts
 			(xy 29.21 181.61) (xy 30.48 181.61)
 		)
 		(stroke
@@ -13062,16 +13070,6 @@
 		)
 		(uuid "154e5866-ef31-4fd8-a4bd-01710c72d596")
 	)
-	(label "BUZZER"
-		(at 165.1 120.65 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "21a2121e-4100-4781-a229-bb56860fa2b7")
-	)
 	(label "CANH"
 		(at 97.79 111.76 0)
 		(effects
@@ -13142,16 +13140,6 @@
 		)
 		(uuid "59b6ffc8-ded3-46ec-8781-6831454a4e61")
 	)
-	(label "EMS"
-		(at 165.1 125.73 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5d186e5c-24cf-4e31-8257-a64b753ee1bd")
-	)
 	(label "CANL"
 		(at 97.79 114.3 0)
 		(effects
@@ -13202,15 +13190,15 @@
 		)
 		(uuid "6eccfadd-5b34-42f4-8c86-3dba6bac0ac0")
 	)
-	(label "RGB1"
-		(at 247.65 115.57 180)
+	(label "BUZZER"
+		(at 248.92 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "72d34276-c2f6-4d78-b4ae-6d8526e4f8aa")
+		(uuid "757c56c6-d3e7-4ec5-956b-44caefee6736")
 	)
 	(label "ESP_D-"
 		(at 248.92 64.77 180)
@@ -13282,6 +13270,26 @@
 		)
 		(uuid "90118d6b-03c6-4e12-922f-7924b1231304")
 	)
+	(label "RGB2"
+		(at 247.65 102.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a43c39a9-d431-4243-960a-22a38141de4a")
+	)
+	(label "EMS"
+		(at 248.92 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a4c43807-9049-4193-a5b1-e5ed88d835d8")
+	)
 	(label "U0TXD"
 		(at 241.3 54.61 0)
 		(effects
@@ -13332,16 +13340,6 @@
 		)
 		(uuid "ea28165f-978c-4d36-9e31-3510e6649861")
 	)
-	(label "RGB2"
-		(at 247.65 118.11 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "eb06df20-3afe-49ad-adbc-d1815e9c3fc7")
-	)
 	(label "CANL"
 		(at 209.55 147.32 180)
 		(effects
@@ -13371,6 +13369,16 @@
 			(justify left bottom)
 		)
 		(uuid "f9f434aa-b1f9-44b7-8756-dd336742555d")
+	)
+	(label "RGB1"
+		(at 247.65 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "faf4110c-678c-40a7-964f-351a834eef46")
 	)
 	(label "VDD_SPI"
 		(at 179.07 35.56 0)
@@ -29087,7 +29095,7 @@
 		(dnp no)
 		(uuid "ea85370f-240f-4e88-a4ec-94da72909f64")
 		(property "Reference" "R9"
-			(at 248.92 72.136 90)
+			(at 252.984 71.12 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29095,7 +29103,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 248.92 73.914 90)
+			(at 252.984 72.898 90)
 			(effects
 				(font
 					(size 1.27 1.27)

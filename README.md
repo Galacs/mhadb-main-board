@@ -11,6 +11,12 @@ ESP32-S3 Mhadb line follower main pcb with can interfaces and integrated BMS and
 - SN65HVD (CAN transceiver)
 - TMP117 (I2C temperature sensor)
 
+## Related repositories
+
+- [Galacs/mhadb-2208-bldc-drv](https://github.com/Galacs/mhadb-2208-bldc-drv)
+- [Galacs/mhadb-line-sensor](https://github.com/Galacs/mhadb-line-sensor)
+- [Galacs/mhadb-firmware](https://github.com/Galacs/mhadb-firmware)
+
 ## Top preview
 
 
